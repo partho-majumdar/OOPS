@@ -2,7 +2,7 @@ package com.partho.SeparateClassInterface;
 
 public class NiceCar {
     private Engine engine;
-    private final Media player = new CDPlayer();
+    private Media player = new CDPlayer();
 
     public NiceCar() {
         engine = new PowerEngine();
